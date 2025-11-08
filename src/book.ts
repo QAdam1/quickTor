@@ -5,7 +5,7 @@ async function main() {
 
   // Configuration - update these values
   const config: BookingConfig = {
-    mobile: process.env.MOBILE || '0544612247',
+    mobile: process.env.MOBILE || '0544458876',
     serviceTypeId: 37331, // Men's haircut - can be changed
     schedulerId: 6132, // Saul - can be changed
     date: process.env.DATE, // Format: YYYY-MM-DD (e.g., '2025-11-16')
