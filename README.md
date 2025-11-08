@@ -34,7 +34,7 @@ Edit `src/book.ts` or use environment variables:
 
 ```typescript
 const config: BookingConfig = {
-  mobile: '0544612246',        // Your mobile number
+  mobile: '0544458876',        // Your mobile number
   serviceTypeId: 3928,         // Service type (3928 = Men's haircut)
   schedulerId: 6132,          // Barber ID (6132 = Saul)
   date: '2025-11-16',          // Format: YYYY-MM-DD
