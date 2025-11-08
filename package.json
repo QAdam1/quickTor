@@ -1,0 +1,31 @@
+{
+  "name": "quicktor",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "description": "Automated barber appointment booking script using Playwright",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "book": "npm run build && npm start",
+    "book:api": "ts-node src/book.ts",
+    "explore": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "appointment",
+    "barber"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "playwright": "^1.56.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
